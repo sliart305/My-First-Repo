@@ -48,7 +48,7 @@ house = pg.confirm("Which house are you?",
 
 if house in ["Slytherin"]:
     password = pg.password("What's the secret code?",
-                           "Enter code below")
+                           "Enter code below", mask='*')
 
 f.write("Sarah, this is the password for the file: " + password)
 
