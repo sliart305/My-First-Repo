@@ -1,6 +1,8 @@
 import webbrowser as wb
 import pyautogui as pg
 
+###pyautogui.readthedocs.io
+
 """
 birthday = input("What month is your birthday?")
 wb.open("https://www.google.com/search?q=" + birthday + " birth stone")
